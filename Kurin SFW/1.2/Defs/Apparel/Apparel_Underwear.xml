@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef Name="Kurin_UnderwearBase" ParentName="Kurin_ApparelBase" Abstract="True">
+	<defName>Kurin_Apparel_Underwear</defName>
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT1</researchPrerequisite>
+	</recipeMaker>
+	<costStuffCount>15</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+	</stuffCategories>
+	<statBases>
+		<Mass>0.1</Mass>
+		<EquipDelay>1.0</EquipDelay>
+		<MaxHitPoints>150</MaxHitPoints>
+		<WorkToMake>1000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<layers>
+			<li>Kurin_Underwear</li>
+		</layers>
+		<tags>
+			<li>Kurin_Underwear</li>
+			<li>Kurin_Colonist</li>
+			<li>Kurin_Nymph</li>
+			<li>Kurin_Grunt</li>
+			<!--Royal-->
+			<li>Royal</li>
+			<li>RoyalTier5</li>
+			<!--Royal-->
+		</tags>
+	</apparel>
+	<thingCategories>
+		<li>Kurin_Apparel_Underwear</li>
+	</thingCategories>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_WhiteTop</defName>
+	<label>kurin white bra</label>
+	<description>귀여운 흰색 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/White_Underwear/No_Bottoms/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/White_Underwear/No_Bottoms/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_WhiteBottom</defName>
+	<label>kurin white panties</label>
+	<description>귀여운 흰색 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/White_Underwear/No_Tops/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/White_Underwear/No_Tops/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_Top</defName>
+	<label>kurin bra</label>
+	<description>Plain underwear that matches the color of the material used</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/White_Underwear/No_Bottoms/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Torso</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/White_Underwear/No_Bottoms/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_Bottom</defName>
+	<label>kurin panties</label>
+	<description>귀여운 흰색 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/White_Underwear/No_Tops/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/White_Underwear/No_Tops/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_PrudeTop</defName>
+	<label>kurin prude bra</label>
+	<description>Ugly underwear that some kurin would just rather not wear at all</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Prude_Underwear/Top/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Torso</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Prude_Underwear/Top/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_PrudeBottom</defName>
+	<label>kurin prude panties</label>
+	<description>귀여운 흰색 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Prude_Underwear/Bottom/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Prude_Underwear/Bottom/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_BlackTop</defName>
+	<label>kurin black bra</label>
+	<description>섹시한 검정색 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Black_Underwear/No_Bottoms/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Black_Underwear/No_Bottoms/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_BlackBottom</defName>
+	<label>kurin black panties</label>
+	<description>귀여운 흰색 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Black_Underwear/No_Tops/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Black_Underwear/No_Tops/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_RedTop</defName>
+	<label>kurin red bra</label>
+	<description>정열적인 붉은색 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Red_Underwear/No_Bottoms/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Red_Underwear/No_Bottoms/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_RedBottom</defName>
+	<label>kurin red panties</label>
+	<description>귀여운 흰색 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Red_Underwear/No_Tops/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Red_Underwear/No_Tops/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_StripedTop</defName>
+	<label>kurin white striped Bra</label>
+	<description>Cute striped bra. They've been dyed white.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Striped_Underwear/No_Bottoms/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Striped_Underwear/No_Bottoms/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_StripedBottom</defName>
+	<label>kurin white striped panties</label>
+	<description>Cute striped panties. They've been dyed white.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Striped_Underwear/No_Tops/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Striped_Underwear/No_Tops/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_Striped2Top</defName>
+	<label>kurin striped Bra</label>
+	<description>Cute striped bra. Colorable.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Striped_Underwear/No_Bottoms/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Torso</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Striped_Underwear/No_Bottoms/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_Striped2Bottom</defName>
+	<label>kurin striped panties</label>
+	<description>Cute striped panties. Colorable.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Striped_Underwear/No_Tops/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Striped_Underwear/No_Tops/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+	</comps>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_SlimTop</defName>
+	<label>kurin slim bra</label>
+	<description>Slim bra for kurin. Doesn't cover much.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Slim_Underwear/No_Bottoms/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Slim_Underwear/No_Bottoms/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_SlimBottom</defName>
+	<label>kurin slim panties</label>
+	<description>Slim underwear for kurin. looks quite seductive...</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Slim_Underwear/No_Tops/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Slim_Underwear/No_Tops/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+</Defs>
