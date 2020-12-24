@@ -185,11 +185,11 @@
 				<colorChannel>skin</colorChannel>
 				<drawSize>0.9</drawSize>
                 <angle>0</angle>
-				<layerOffset>-0.2700965</layerOffset>
+				<layerOffset>-0.274</layerOffset>
                 <offsets>
 				    <west>
                         <bodyTypes>
-                            <Female>(-0.4823152,0.2829581)</Female>
+                            <Female>(-0.4823152,0.237942)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -197,7 +197,7 @@
                     </west>
                     <south>
                         <bodyTypes>
-                            <Female>(-0.4212219,0.2829581)</Female>
+                            <Female>(-0.421,0.2572346)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -213,7 +213,7 @@
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0.4823152,0.2829581)</Female>
+                            <Female>(-0.4823152,0.237942)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -248,7 +248,7 @@
                     </south>
                     <north>
                         <bodyTypes>
-                            <Female>(0,0.6334405)</Female>
+                            <Female>(0,0.5819935)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -292,7 +292,7 @@
                     </south>
                     <north>
                         <bodyTypes>
-                            <Female>(0,0.6334405)</Female>
+                            <Female>(0,0.5819935)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -335,7 +335,7 @@
                     </south>
                     <north>
                         <bodyTypes>
-                            <Female>(0,0.6334405)</Female>
+                            <Female>(0,0.5819935)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -379,7 +379,7 @@
                     </south>
                     <north>
                         <bodyTypes>
-                            <Female>(0,0.85209)</Female>
+                            <Female>(0,0.5819935)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
