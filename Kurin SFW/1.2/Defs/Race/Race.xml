@@ -10,8 +10,30 @@
 			<immuneToXenophobia>true</immuneToXenophobia>
 			<maleGenderProbability>0</maleGenderProbability>
 			<immuneToAge>true</immuneToAge>
-            <humanRecipeImport>true</humanRecipeImport>
-      <factionRelations>
+            <humanRecipeImport>true</humanRecipeImport>           
+			<forcedRaceTraitEntries>
+                <li>
+                    <defName>Beauty</defName>
+                    <degree>2</degree>
+                    <chance>25</chance>
+                </li>
+                <li>
+                    <defName>Beauty</defName>
+                    <degree>1</degree>
+                    <chance>50</chance>
+                </li>
+            </forcedRaceTraitEntries>
+			<disallowedTraits>
+			    <li>
+                    <defName>Beauty</defName>
+                    <degree>-1</degree>
+                </li>
+			    <li>
+                    <defName>Beauty</defName>
+                    <degree>-2</degree>
+                </li>
+			</disallowedTraits>
+			<factionRelations>
                 <li>
                     <factions>
                        <li>Kurin_Faction</li>
@@ -21,7 +43,16 @@
                        <max>100</max>
                     </goodwill>
                 </li>
-            </factionRelations> 
+				 <li>
+					<factions>
+						<li>Empire</li>
+					</factions>
+					<goodwill>
+						<min>-25</min>
+						<max>100</max>
+					</goodwill>
+				</li> 
+            </factionRelations>
 	<maxDamageForSocialfight>4</maxDamageForSocialfight>
 	
 
@@ -39,12 +70,13 @@
 			<useGenderedBodies>false</useGenderedBodies>
             <bodyAddons>
 			<!--꼬리A-->
-                <li>
-                <path>Kurin/Tail/A/Texture</path>
-                <bodyPart>tail</bodyPart>				
+			<li>
+                <path>Kurin/Tail/Single tails/Texture1</path>
+                <bodyPart>tailtop</bodyPart>				
                 <inFrontOfBody>false</inFrontOfBody>
 				<colorChannel>hair</colorChannel>
 				<drawSize>0.9</drawSize>
+                <layerOffset>-0.19</layerOffset>
                 <offsets>
                     <south>
                         <bodyTypes>
@@ -56,7 +88,7 @@
                     </south>
                     <north>
                         <bodyTypes>
-                            <Female>(0,0.6173633)</Female>
+                            <Female>(0,0.5401928)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -64,7 +96,79 @@
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0.4136978,0.347267)</Female>
+                            <Female>(-0.4972991,0.2958201)</Female>
+                        </bodyTypes>
+                        <crownTypes>
+                            <Normal_Average>(0,0)</Normal_Average>
+                        </crownTypes>
+                    </east>
+                </offsets>
+				<drawnInBed>false</drawnInBed>
+                </li>
+				
+                <li>
+                <path>Kurin/Tail/Single tails/Texture2</path>
+                <bodyPart>tailbottom</bodyPart>				
+                <inFrontOfBody>false</inFrontOfBody>
+				<colorChannel>hair</colorChannel>
+				<drawSize>0.9</drawSize>
+                <layerOffset>-0.25</layerOffset>
+                <offsets>
+                    <south>
+                        <bodyTypes>
+                            <Female>(-0.3729904,0.2315113)</Female>
+                        </bodyTypes>
+                        <crownTypes>
+                            <Normal_Average>(0,0)</Normal_Average>
+                        </crownTypes>
+                    </south>
+                    <north>
+                        <bodyTypes>
+                            <Female>(0,0.5401928)</Female>
+                        </bodyTypes>
+                        <crownTypes>
+                            <Normal_Average>(0,0)</Normal_Average>
+                        </crownTypes>
+                    </north>
+                    <east>
+                        <bodyTypes>
+                            <Female>(-0.4972991,0.2958201)</Female>
+                        </bodyTypes>
+                        <crownTypes>
+                            <Normal_Average>(0,0)</Normal_Average>
+                        </crownTypes>
+                    </east>
+                </offsets>
+				<drawnInBed>false</drawnInBed>
+                </li>
+				
+                <li>
+                <path>Kurin/Tail/Single tails/Texture3</path>
+                <bodyPart>tailmiddle</bodyPart>				
+                <inFrontOfBody>false</inFrontOfBody>
+				<colorChannel>hair</colorChannel>
+				<drawSize>0.9</drawSize>
+                <layerOffset>-0.2</layerOffset>
+                <offsets>
+                    <south>
+                        <bodyTypes>
+                            <Female>(-0.3729904,0.2315113)</Female>
+                        </bodyTypes>
+                        <crownTypes>
+                            <Normal_Average>(0,0)</Normal_Average>
+                        </crownTypes>
+                    </south>
+                    <north>
+                        <bodyTypes>
+                            <Female>(0,0.5401928)</Female>
+                        </bodyTypes>
+                        <crownTypes>
+                            <Normal_Average>(0,0)</Normal_Average>
+                        </crownTypes>
+                    </north>
+                    <east>
+                        <bodyTypes>
+                            <Female>(-0.4972991,0.2958201)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -118,6 +222,7 @@
                 </offsets>
                 </li>
 				
+
                 <li>
                 <path>Kurin/Ear/Ears/DRNTFEarLA</path>
                 <bodyPart>left ear</bodyPart>				
@@ -128,7 +233,7 @@
                 <offsets>
 				    <west>
                         <bodyTypes>
-                            <Female>(-0.4372991,0.2508038)</Female>
+                            <Female>(-0.4372991,0.2443729)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -136,7 +241,7 @@
                     </west>
                     <south>
                         <bodyTypes>
-                            <Female>(-0.4212219,0.3086816)</Female>
+                            <Female>(-0.4212219,0.2508038)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -152,7 +257,7 @@
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0.4372991,0.2508038)</Female>
+                            <Female>(-0.4372991,0.2443729)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -172,7 +277,7 @@
                 <offsets>
 					<west>
                         <bodyTypes>
-                            <Female>(-0.3729905,0.2829581)</Female>
+                            <Female>(-0.3729905,0.2443729)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -180,7 +285,7 @@
                     </west>
                     <south>
                         <bodyTypes>
-                            <Female>(-0.4212219,0.3086816)</Female>
+                            <Female>(-0.4212219,0.289389)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -196,7 +301,7 @@
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0.3729905,0.2829581)</Female>
+                            <Female>(-0.3729905,0.2443729)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -215,7 +320,7 @@
                 <offsets>
 					<west>
                         <bodyTypes>
-                            <Female>(-0.4372991,0.2508038)</Female>
+                            <Female>(-0.4372991,0.2443729)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -223,7 +328,7 @@
                     </west>
                     <south>
                         <bodyTypes>
-                            <Female>(-0.4212219,0.3086816)</Female>
+                            <Female>(-0.4212219,0.2508038)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -239,7 +344,7 @@
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0.4372991,0.2508038)</Female>
+                            <Female>(-0.4372991,0.2443729)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -259,7 +364,7 @@
                 <offsets>
 					<west>
                         <bodyTypes>
-                            <Female>(-0.3729905,0.2829581)</Female>
+                            <Female>(-0.3729905,0.2443729)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -267,7 +372,7 @@
                     </west>
                     <south>
                         <bodyTypes>
-                            <Female>(-0.4212219,0.3086816)</Female>
+                            <Female>(-0.4212219,0.289389)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -283,7 +388,7 @@
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0.3729905,0.2829581)</Female>
+                            <Female>(-0.3729905,0.2443729)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -293,7 +398,7 @@
                 </li>
             </bodyAddons>
 			
-<customDrawSize>(0.9, 0.9)</customDrawSize>
+		 <customDrawSize>(0.9, 0.9)</customDrawSize>
          <customPortraitDrawSize>(.9, .9)</customPortraitDrawSize>
 		
 		<colorChannels>
@@ -647,30 +752,14 @@
 				<li>Kurin_Stockings_Pantyhose</li>
 				<li>Kurin_Underwear_WhiteTop</li>
 				<li>Kurin_Underwear_WhiteBottom</li>
-				<!-- <li>Kurin_Underwear</li> -->
-				<li>Kurin_Underwear_Top</li>
-				<li>Kurin_Underwear_Bottom</li>
-				<!-- <li>Kurin_Underwear_White</li> -->
-				<li>Kurin_Underwear_WhiteTop</li>
-				<li>Kurin_Underwear_WhiteBottom</li>
-				<!-- <li>Kurin_Underwear_Black</li> -->
-				<li>Kurin_Underwear_BlackTop</li>
-				<li>Kurin_Underwear_BlackBottom</li>
-				<!-- <li>Kurin_Underwear_Red</li> -->
-				<li>Kurin_Underwear_RedTop</li>
-				<li>Kurin_Underwear_RedBottom</li>
-				<!-- <li>Kurin_Underwear_Striped</li> -->
-				<li>Kurin_Underwear_StripedTop</li>
-				<li>Kurin_Underwear_StripedBottom</li>
-				<!-- <li>Kurin_Underwear_Striped2</li> -->
-				<li>Kurin_Underwear_Striped2Top</li>
-				<li>Kurin_Underwear_Striped2Bottom</li>
-				<!-- <li>Kurin_Underwear_Slim</li> -->
-				<li>Kurin_Underwear_SlimTop</li>
-				<li>Kurin_Underwear_SlimBottom</li>
-				<!-- <li>Kurin_Underwear_Prude</li> -->
-				<li>Kurin_Underwear_PrudeTop</li>
-				<li>Kurin_Underwear_PrudeBottom</li>
+				<li>Kurin_Underwear</li> 
+				<li>Kurin_Underwear_White</li> 
+				<li>Kurin_Underwear_Black</li> 
+				<li>Kurin_Underwear_Red</li> 
+				<li>Kurin_Underwear_Striped</li> 
+				<li>Kurin_Underwear_Striped2</li> 
+				<li>Kurin_Underwear_Slim</li>
+				<li>Kurin_Underwear_Prude</li>
 				<li>Kurin_Middle_Body_Armor</li>
 				<li>Kurin_Overhead_Winter_Hat</li>
 				<li>Kurin_Overhead_Summer_Hat</li>
@@ -700,10 +789,10 @@
 <!--=============================================================================================================================-->
     <statBases>
 	<!--기본-->
-      <MarketValue>4000</MarketValue>
+      <MarketValue>5000</MarketValue>
       <Flammability>0.3</Flammability>
       <MoveSpeed>5</MoveSpeed>
-	  <MentalBreakThreshold>0.3</MentalBreakThreshold>
+	  <MentalBreakThreshold>0.4</MentalBreakThreshold>
       <ComfyTemperatureMax>42</ComfyTemperatureMax>
       <ComfyTemperatureMin>10</ComfyTemperatureMin>
 	  <ImmunityGainSpeed>1.1</ImmunityGainSpeed>
@@ -720,8 +809,8 @@
 	  <ButcheryMechanoidEfficiency>1.1</ButcheryMechanoidEfficiency> <!--메카노이드 분해 효율-->
 	  <ButcheryMechanoidSpeed>1.1</ButcheryMechanoidSpeed> <!--메카노이드 분해 속도-->
 	  <SmeltingSpeed>1.0</SmeltingSpeed> <!--금속 제련 속도-->
-	  <ResearchSpeed>1.3</ResearchSpeed>
-	  <SmithingSpeed>0.9</SmithingSpeed>
+	  <ResearchSpeed>0.9</ResearchSpeed>
+	  <SmithingSpeed>0.8</SmithingSpeed>
 	  <!-- <GeneralLaborSpeed>0.9</GeneralLaborSpeed> --> <!--제련 속도-->
 	  <TailoringSpeed>1.2</TailoringSpeed> <!--재단 속도-->
 	  <MiningSpeed>0.7</MiningSpeed>
@@ -840,9 +929,9 @@
           <minAge>18</minAge>
         </li>
       </lifeStageAges>
-      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
       <specialShadowData>
         <volume>(0.3, 0.8, 0.4)</volume>
         <offset>(0,0,-0.3)</offset>

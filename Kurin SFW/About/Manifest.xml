@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-	<identifier>Kurin HAR Edition</identifier>
+	<identifier>Kurin HAR Edition test</identifier>
 	<version>1.0.0</version>
 	<dependencies>
 		<li>erdelf.HumanoidAlienRaces</li>
@@ -11,6 +11,4 @@
 	</loadAfter>
 	<suggests>
 	</suggests>
-	<manifestUri>https://github.com/MaroonToon/Kurin/tree/NSFW/About/Manifest.xml</manifestUri>
-	<downloadUri>https://github.com/MaroonToon/Kurin</downloadUri>
 </Manifest>

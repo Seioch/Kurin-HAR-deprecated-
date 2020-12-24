@@ -46,8 +46,26 @@
 			</li>
 			<li>
 				<def>Kurin_Tail</def>
-				<customLabel>tail</customLabel>
-				<coverage>0.05</coverage>
+				<customLabel>tailtop</customLabel>
+				<coverage>0.02</coverage>
+				<height>Bottom</height>
+				<groups>
+					<li>Torso</li>
+				</groups>
+			</li>
+			<li>
+				<def>Kurin_Tail</def>
+				<customLabel>tailbottom</customLabel>
+				<coverage>0.02</coverage>
+				<height>Bottom</height>
+				<groups>
+					<li>Torso</li>
+				</groups>
+			</li>
+			<li>
+				<def>Kurin_Tail</def>
+				<customLabel>tailmiddle</customLabel>
+				<coverage>0.02</coverage>
 				<height>Bottom</height>
 				<groups>
 					<li>Torso</li>
