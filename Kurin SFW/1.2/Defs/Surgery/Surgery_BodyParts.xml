@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef ParentName="BodyPartProstheticMakeableBase">
+	<defName>Kurin_FakeTail</defName>
+	<label>fake kurin tail</label>
+	<description>A fake Kurin tail made with cloth and a bit of metal. If you look at it too long, it looks a bit off.</description>
+	<techLevel>Industrial</techLevel>
+	<costList>
+		<Steel>25</Steel>
+		<Cloth>50</Cloth>
+	</costList>
+	<statBases>
+		<WorkToMake>13000</WorkToMake>
+		<Mass>0.1</Mass>
+	</statBases>
+</ThingDef>
+
+<ThingDef ParentName="BodyPartBionicBase">
+	<defName>Kurin_BionicEar</defName>
+	<label>bionic kurin ear</label>
+	<description>Assemble a bionic kurin ear.</description>
+	<techLevel>Spacer</techLevel>
+	<costList>
+		<Plasteel>10</Plasteel>
+		<Cloth>25</Cloth>
+		<ComponentSpacer>3</ComponentSpacer>
+	</costList>
+	<statBases>
+		<WorkToMake>26000</WorkToMake>
+		<Mass>0.1</Mass>
+	</statBases>
+</ThingDef>
+
+<ThingDef ParentName="BodyPartBionicBase">
+	<defName>Kurin_BionicTail</defName>
+	<label>bionic kurin tail</label>
+	<description>Assemble a bionic kurin tail.</description>
+	<techLevel>Spacer</techLevel>
+	<costList>
+		<Plasteel>25</Plasteel>
+		<Cloth>50</Cloth>
+		<ComponentSpacer>1</ComponentSpacer>
+	</costList>
+	<statBases>
+		<WorkToMake>26000</WorkToMake>
+		<Mass>0.1</Mass>
+	</statBases>
+</ThingDef>
+</Defs>
