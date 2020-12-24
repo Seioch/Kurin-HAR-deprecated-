@@ -54,7 +54,7 @@
 	</apparel>
 </ThingDef>
 <ThingDef ParentName="Kurin_UnderwearBase">
-	<defName>Kurin_Underwear2</defName>
+	<defName>Kurin_Underwear_Stuffed</defName>
 	<label>kurin bra</label>
 	<description>Plain underwear that matches the color of the material used</description>
 	<graphicData>
@@ -138,7 +138,7 @@
 </ThingDef>
 
 <ThingDef ParentName="Kurin_UnderwearBase">
-	<defName>Kurin_Underwear_Striped2</defName>
+	<defName>Kurin_Underwear_Striped_Stuffed</defName>
 	<label>kurin striped Bra</label>
 	<description>Cute striped bra. Colorable.</description>
 	<graphicData>
