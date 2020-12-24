@@ -605,9 +605,9 @@
 <BodyPartDef>
 	<defName>Kurin_Tail</defName>
 	<label>tail</label>
-	<hitPoints>20</hitPoints>
-	<frostbiteVulnerability>3</frostbiteVulnerability>
-	<skinCovered>true</skinCovered>
+	<hitPoints>10</hitPoints>
+	<frostbiteVulnerability>0</frostbiteVulnerability>
+	<skinCovered>false</skinCovered>
 	<beautyRelated>true</beautyRelated>
 	<tags>
 		<li>MovingLimbCore</li>
