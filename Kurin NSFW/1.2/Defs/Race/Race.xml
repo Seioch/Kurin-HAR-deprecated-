@@ -3,7 +3,7 @@
 <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>Kurin_Race</defName>
     <label>Kurin</label>
-    <description>Three Tailed fox girls.</description>
+    <description>An all-female race of humans spliced with fox genes. Originally, they were Glitterworld designermates from the planet Aolara, but an internal war forced them to leave their homeworld. Now they are spread among the rim.</description>
 <!--=============================================================================================================================-->
     <alienRace>
 		<generalSettings>
@@ -803,10 +803,10 @@
 <!--=============================================================================================================================-->
     <statBases>
 	<!--기본-->
-      <MarketValue>4000</MarketValue>
+      <MarketValue>5000</MarketValue>
       <Flammability>0.3</Flammability>
       <MoveSpeed>5</MoveSpeed>
-	  <MentalBreakThreshold>0.40</MentalBreakThreshold>
+	  <MentalBreakThreshold>0.4</MentalBreakThreshold>
       <ComfyTemperatureMax>42</ComfyTemperatureMax>
       <ComfyTemperatureMin>10</ComfyTemperatureMin>
 	  <ImmunityGainSpeed>1.1</ImmunityGainSpeed>
@@ -816,15 +816,15 @@
       <Mass>50</Mass>
 	  <PainShockThreshold>0.80</PainShockThreshold>
 	<!--사교-->
-	  <NegotiationAbility>1.6</NegotiationAbility> <!--외교 영향력-->
-	  <SellPriceFactor>1.5</SellPriceFactor> <!--거래 가격 개선-->
+	  <NegotiationAbility>1.3</NegotiationAbility> <!--외교 영향력-->
+	  <SellPriceFactor>1.2</SellPriceFactor> <!--거래 가격 개선-->
 	  <SocialImpact>1.2</SocialImpact> <!--사회적 영향력-->
 	<!--제작-->
 	  <ButcheryMechanoidEfficiency>1.1</ButcheryMechanoidEfficiency> <!--메카노이드 분해 효율-->
 	  <ButcheryMechanoidSpeed>1.1</ButcheryMechanoidSpeed> <!--메카노이드 분해 속도-->
-	  <SmeltingSpeed>0.9</SmeltingSpeed> <!--금속 제련 속도-->
-	  <ResearchSpeed>1.3</ResearchSpeed>
-	  <SmithingSpeed>0.9</SmithingSpeed>
+	  <SmeltingSpeed>1.0</SmeltingSpeed> <!--금속 제련 속도-->
+	  <ResearchSpeed>0.9</ResearchSpeed>
+	  <SmithingSpeed>0.8</SmithingSpeed>
 	  <!-- <GeneralLaborSpeed>0.9</GeneralLaborSpeed> --> <!--제련 속도-->
 	  <TailoringSpeed>1.2</TailoringSpeed> <!--재단 속도-->
 	  <MiningSpeed>0.7</MiningSpeed>
