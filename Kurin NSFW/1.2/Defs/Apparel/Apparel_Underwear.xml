@@ -13,11 +13,11 @@
 	<statBases>
 		<Mass>0.1</Mass>
 		<EquipDelay>1.0</EquipDelay>
-		<MaxHitPoints>150</MaxHitPoints>
+		<MaxHitPoints>100</MaxHitPoints>
 		<WorkToMake>1000</WorkToMake>
-		<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
 		<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
-		<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
 	</statBases>
 	<apparel>
 		<layers>
@@ -37,6 +37,78 @@
 	<thingCategories>
 		<li>Kurin_Apparel_Underwear</li>
 	</thingCategories>
+</ThingDef>
+
+<ThingDef Name="Kurin_TribalUnderwearBase" ParentName="Kurin_ApparelBase" Abstract="True">
+	<defName>Kurin_Apparel_UnderwearTribal</defName>
+	<recipeMaker>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+	</recipeMaker>
+	<costStuffCount>15</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<Mass>0.1</Mass>
+		<EquipDelay>1.0</EquipDelay>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>500</WorkToMake>
+		<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<layers>
+			<li>Kurin_Underwear</li>
+		</layers>
+		<tags>
+			<li>Kurin_Underwear</li>
+			<li>Kurin_Colonist</li>
+			<li>Kurin_Nymph</li>
+			<li>Kurin_Grunt</li>
+			<!--Royal-->
+			<li>Royal</li>
+			<li>RoyalTier5</li>
+			<!--Royal-->
+		</tags>
+	</apparel>
+	<thingCategories>
+		<li>Kurin_Apparel_Underwear</li>
+	</thingCategories>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_TribalUnderwearBase">
+	<defName>Kurin_Underwear_TribalTop</defName>
+	<label>kurin tribal bra</label>
+	<description>makeshift kurin underwear.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Tribal_Underwear/No_Bottoms/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Tribal_Underwear/No_Bottoms/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_TribalUnderwearBase">
+	<defName>Kurin_Underwear_TribalBottom</defName>
+	<label>kurin tribal panties</label>
+	<description>Makeshift Kurin underwear.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Tribal_Underwear/No_Tops/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Tribal_Underwear/No_Tops/Texture</wornGraphicPath>
+	</apparel>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_UnderwearBase">

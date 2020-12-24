@@ -906,8 +906,8 @@
     </tools>
 <!--=============================================================================================================================-->
     <race>
-      <thinkTreeMain>Kurinlike</thinkTreeMain>
-      <thinkTreeConstant>KurinlikeConstant</thinkTreeConstant>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
       <intelligence>Humanlike</intelligence>
       <makesFootprints>true</makesFootprints>
       <lifeExpectancy>120</lifeExpectancy>

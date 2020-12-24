@@ -94,7 +94,7 @@
 <ThingDef ParentName="Kurin_StockingBase">
 	<defName>Kurin_Stockings_Striped_White</defName>
 	<label>kurin white striped stockings</label>
-	<description>Unique striped tights, dyed white. Further enhances the Kurin charm.</description>
+	<description>독특한 줄무늬 스타킹입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
 	<graphicData>
 		<texPath>Kurin/Apparel/Stocking/Striped_Stockings/Texture</texPath>
 	</graphicData>
@@ -102,7 +102,6 @@
 		<wornGraphicPath>Kurin/Apparel/Stocking/Striped_Stockings/Texture</wornGraphicPath>
 	</apparel>
 </ThingDef>
-
 
 <ThingDef ParentName="Kurin_StockingBase">
 	<defName>Kurin_Stockings_Garterbelt</defName>
@@ -125,6 +124,18 @@
 	</graphicData>
 	<apparel>
 		<wornGraphicPath>Kurin/Apparel/Stocking/Pantyhose/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_StockingBase">
+	<defName>Kurin_Stockings_crotchless_Pantyhose</defName>
+	<label>kurin crotchless pantyhose</label>
+	<description>Pantyhose with the crotch cutout.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Stocking/Pantyhose/No_Crotch/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kurin/Apparel/Stocking/Pantyhose/No_Crotch/Texture</wornGraphicPath>
 	</apparel>
 </ThingDef>
 

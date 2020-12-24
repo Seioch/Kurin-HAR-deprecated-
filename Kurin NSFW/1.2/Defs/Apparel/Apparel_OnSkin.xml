@@ -8,12 +8,78 @@
 	</statBases>
 	<apparel>
 		<layers>
-			<li>Kurin_Apparel_OnSkin</li>
+			<li>OnSkin</li>
 		</layers>
 	</apparel>
 	<thingCategories>
 		<li>Kurin_Apparel_OnSkin</li>
 	</thingCategories>
+</ThingDef>
+<!--================================================== Tear 0 ==================================================-->
+
+<ThingDef ParentName="Kurin_OnSkinBase">
+	<defName>Kurin_OnSkin_TribalTop</defName>
+	<label>kurin tribal top</label>
+	<description>Makeshift clothing made to keep warm</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/OnSkin/Tribal_2Piece/No_Bottoms/Texture</texPath>
+	</graphicData>
+	<costStuffCount>25</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Torso</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/OnSkin/Tribal_2Piece/No_Bottoms/Texture</wornGraphicPath>
+	</apparel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>1000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OnSkinBase">
+	<defName>Kurin_OnSkin_TribalBottom</defName>
+	<label>kurin loincloth</label>
+	<description>Makeshift clothing made by kurin</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/OnSkin/Tribal_2Piece/No_Tops/Texture</texPath>
+	</graphicData>
+	<costStuffCount>25</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/OnSkin/Tribal_2Piece/No_Tops/Texture</wornGraphicPath>
+	</apparel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>1000</WorkToMake>
+		<StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
 </ThingDef>
 
 <!--================================================== Tear 1 ==================================================-->
@@ -62,6 +128,69 @@
 		<StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
 		<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
 	</statBases>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OnSkinBaseTear1">
+	<defName>Kurin_OnSkin_Shirt_Short</defName>
+	<label>short kurin shirt</label>
+	<description>A short shirt for kurin. It seems like a mistake, but it's probably intentional</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/OnSkin/Shirt/Texture1</texPath>
+	</graphicData>
+	<costStuffCount>50</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Shoulders</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/OnSkin/Shirt/Texture1</wornGraphicPath>
+	</apparel>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>4000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OnSkinBaseTear1">
+	<defName>Kurin_OnSkin_Pants</defName>
+	<label>kurin pants</label>
+	<description>Comfortable and practical kurin pants.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Legs/Pants/Texture</texPath>
+	</graphicData>
+	<costStuffCount>70</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>125</MaxHitPoints>
+		<WorkToMake>6000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<layers>
+			<li>Kurin_Legs</li>
+			<li>Kurin_Stocking</li>
+		</layers>
+		<wornGraphicPath>Kurin/Apparel/Legs/Pants/Texture</wornGraphicPath>
+		<defaultOutfitTags>
+			<li>Worker</li>
+		</defaultOutfitTags>
+		<bodyPartGroups>
+			<li>Legs</li>
+		</bodyPartGroups>
+	</apparel>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_OnSkinBaseTear1">
@@ -145,11 +274,14 @@
 <ThingDef ParentName="Kurin_OnSkinBaseTear2">
 	<defName>Kurin_OnSkin_Hot_Pants</defName>
 	<label>kurin hot pants</label>
-	<description>가벼운 핫팬츠입니다. 햇빛이 강한 날에는 피부가 타지 않게 선크림은 필수입니다.</description>
+	<description>Cute denim shorts for those hot summers.</description>
 	<graphicData>
 		<texPath>Kurin/Apparel/OnSkin/Hot_Pants/No_Tops/Texture</texPath>
 	</graphicData>
 	<apparel>
+		<layers>
+			<li>Kurin_Legs</li>
+		</layers>
 		<bodyPartGroups>
 			<li>Legs</li>
 			<li>Torso</li>
@@ -323,6 +455,41 @@
 	<label>kurin open back knit</label>
 	<description>한쪽이 크게 파여있는 니트입니다. 아직도 쿠린들 사이에서는 이걸 어떻게 입어야 하는지 논쟁이 일어나고 있습니다.</description>
 	<graphicData>
+		<texPath>Kurin/Apparel/OnSkin/Open_Back_Knit/Texture</texPath>
+	</graphicData>
+	<costList>
+		<Cloth>25</Cloth>
+	</costList>
+	<costStuffCount>50</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>125</MaxHitPoints>
+		<WorkToMake>6000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<tags>
+			<li>Kurin_Colonist</li>
+			<li>Kurin_Citizen</li>
+		</tags>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Neck</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/OnSkin/Open_Back_Knit/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OnSkinBaseTear2">
+	<defName>Kurin_OnSkin_Open_Front_Knit</defName>
+	<label>kurin open front knit</label>
+	<description>Also known as the "virgin killer".</description>
+	<graphicData>
 		<texPath>Kurin/Apparel/OnSkin/Open_Front_Knit/Texture</texPath>
 	</graphicData>
 	<costList>
@@ -475,19 +642,15 @@
 <ThingDef ParentName="Kurin_OnSkinBaseTear3">
 	<defName>Kurin_OnSkin_Armored_Gothic_Dress</defName>
 	<label>kurin armored gothic dress</label>
-	<description>Although it looks like a normal dress, this outfit is actually more like stylish power armor. Folds of plasteel weave meshed between devilstrand padding makes any Kurin wearing this a goddess of brawling. It's heavy weight makes the wearer more vulnerable to hits, however.</description>
+	<description>고딕 양식의 드레스에 플레이트를 덧대 만든 의상입니다. 방어력과 매력, 둘 다 포기하지 않았습니다.</description>
 	<graphicData>
 		<texPath>Kurin/Apparel/OnSkin/Armored_Gothic_Dress/Texture</texPath>
 	</graphicData>
 	<apparel>
 		<bodyPartGroups>
 			<li>Torso</li>
-			<li>Legs</li>
-			<li>Arms</li>
 			<li>Shoulders</li>
-			<li>Neck</li>
-			<li>Feet</li>
-			<li>Hands</li>
+			<li>Legs</li>
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Armored_Gothic_Dress/Texture</wornGraphicPath>
 		<tags>
@@ -499,7 +662,6 @@
 	<costList>
 		<DevilstrandCloth>25</DevilstrandCloth>
 		<Steel>50</Steel>
-		<ComponentIndustrial>5</ComponentIndustrial>
 	</costList>
 	<costStuffCount>75</costStuffCount>
 	<stuffCategories>
@@ -509,24 +671,23 @@
 	<statBases>
 		<MaxHitPoints>300</MaxHitPoints>
 		<WorkToMake>16000</WorkToMake>
-		<StuffEffectMultiplierArmor>0.50</StuffEffectMultiplierArmor>
-		<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
 		<StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
-		<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-		<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
-		<ArmorRating_Heat>0.20</ArmorRating_Heat>
+		<ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.10</ArmorRating_Heat>
 	</statBases>
 	<equippedStatOffsets>
-		<MeleeHitChance>2.0</MeleeHitChance>
-		<MeleeDodgeChance>-2.0</MeleeDodgeChance>
-		<MoveSpeed>-0.2</MoveSpeed>
+		<MeleeHitChance>1.0</MeleeHitChance>
+		<MeleeDodgeChance>2.0</MeleeDodgeChance>
 	</equippedStatOffsets>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_OnSkinBaseTear3">
 	<defName>Kurin_OnSkin_Gothic_Dress</defName>
 	<label>kurin gothic dress</label>
-	<description>An old timey gothic style dress. Hidden pockets store cooking utensils for speedy cooking.</description>
+	<description>고딕 양식의 드레스입니다. 언제 어디서든 고풍스러워 보입니다.</description>
 	<graphicData>
 		<texPath>Kurin/Apparel/OnSkin/Gothic_Dress/Texture</texPath>
 	</graphicData>
@@ -569,7 +730,7 @@
 <ThingDef ParentName="Kurin_OnSkinBaseTear3">
 	<defName>Kurin_OnSkin_Bikini_Armor</defName>
 	<label>kurin bikini armor</label>
-	<description>Even though a lot went into it, it appears weak and exposed. However, the plasteel mesh is as strong as power armor and significantly increases the wearer's melee strength.</description>
+	<description>분명히 많은 양의 재료가 들어갔지만 어째서인지 매우 빈약해 보입니다. 하지만 믿음직스럽지 못한 외형과는 다르게 매우 튼튼하고 착용자의 근접 전투력을 상당히 올려줍니다.</description>
 	<graphicData>
 		<texPath>Kurin/Apparel/OnSkin/Bikini_Armor/Texture</texPath>
 	</graphicData>
@@ -577,14 +738,14 @@
 		<DevilstrandCloth>25</DevilstrandCloth>
 		<Plasteel>50</Plasteel>
 	</costList>
-	<costStuffCount>100</costStuffCount>
+	<costStuffCount>75</costStuffCount>
 	<stuffCategories>
 		<li>Metallic</li>
 	</stuffCategories>
 	<statBases>
 		<MaxHitPoints>300</MaxHitPoints>
 		<WorkToMake>32000</WorkToMake>
-		<StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
 		<StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
 		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
 		<Insulation_Cold>20</Insulation_Cold>
@@ -613,11 +774,166 @@
 	</apparel>
 	<equippedStatOffsets>
 		<MeleeHitChance>2.0</MeleeHitChance>
-		<MeleeDodgeChance>8.0</MeleeDodgeChance>
+		<MeleeDodgeChance>6.0</MeleeDodgeChance>
 		<MoveSpeed>0.3</MoveSpeed>
 	</equippedStatOffsets>
 </ThingDef>
 
+<ThingDef ParentName="Kurin_OnSkinBaseTear3">
+	<defName>Kurin_OnSkin_Bikini_ArmorTopless</defName>
+	<label>kurin topless bikini armor</label>
+	<description>분명히 많은 양의 재료가 들어갔지만 어째서인지 매우 빈약해 보입니다. 하지만 믿음직스럽지 못한 외형과는 다르게 매우 튼튼하고 착용자의 근접 전투력을 상당히 올려줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/OnSkin/Bikini_Armor/No_Tops/Texture</texPath>
+	</graphicData>
+	<costList>
+		<DevilstrandCloth>25</DevilstrandCloth>
+		<Plasteel>50</Plasteel>
+	</costList>
+	<costStuffCount>75</costStuffCount>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>300</MaxHitPoints>
+		<WorkToMake>32000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+		<Insulation_Cold>20</Insulation_Cold>
+		<Insulation_Heat>10</Insulation_Heat>
+	</statBases>
+	<apparel>
+		<tags>
+			<!--Royal-->
+ 			 <li>RoyalCombatGear</li>
+			<!--Royal-->
+			<li>Kurin_Melee</li>
+		</tags>
+		<layers>
+			<li>Shell</li>
+		</layers>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+			<li>Arms</li>
+			<li>Shoulders</li>
+			<li>Neck</li>
+			<li>Feet</li>
+			<li>Hands</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/OnSkin/Bikini_Armor/No_Tops/Texture</wornGraphicPath>
+	</apparel>
+	<equippedStatOffsets>
+		<MeleeHitChance>2.0</MeleeHitChance>
+		<MeleeDodgeChance>6.0</MeleeDodgeChance>
+		<MoveSpeed>0.3</MoveSpeed>
+	</equippedStatOffsets>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OnSkinBaseTear3">
+	<defName>Kurin_OnSkin_Bikini_ArmorBottomless</defName>
+	<label>kurin bottomless bikini armor</label>
+	<description>분명히 많은 양의 재료가 들어갔지만 어째서인지 매우 빈약해 보입니다. 하지만 믿음직스럽지 못한 외형과는 다르게 매우 튼튼하고 착용자의 근접 전투력을 상당히 올려줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/OnSkin/Bikini_Armor/No_Bottoms/Texture</texPath>
+	</graphicData>
+	<costList>
+		<DevilstrandCloth>25</DevilstrandCloth>
+		<Plasteel>50</Plasteel>
+	</costList>
+	<costStuffCount>75</costStuffCount>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>300</MaxHitPoints>
+		<WorkToMake>32000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+		<Insulation_Cold>20</Insulation_Cold>
+		<Insulation_Heat>10</Insulation_Heat>
+	</statBases>
+	<apparel>
+		<tags>
+			<!--Royal-->
+ 			 <li>RoyalCombatGear</li>
+			<!--Royal-->
+			<li>Kurin_Melee</li>
+		</tags>
+		<layers>
+			<li>Shell</li>
+		</layers>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+			<li>Arms</li>
+			<li>Shoulders</li>
+			<li>Neck</li>
+			<li>Feet</li>
+			<li>Hands</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/OnSkin/Bikini_Armor/No_Bottoms/Texture</wornGraphicPath>
+	</apparel>
+	<equippedStatOffsets>
+		<MeleeHitChance>2.0</MeleeHitChance>
+		<MeleeDodgeChance>6.0</MeleeDodgeChance>
+		<MoveSpeed>0.3</MoveSpeed>
+	</equippedStatOffsets>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OnSkinBaseTear3">
+	<defName>Kurin_OnSkin_Bikini_ArmorExposed</defName>
+	<label>kurin exposed bikini armor</label>
+	<description>분명히 많은 양의 재료가 들어갔지만 어째서인지 매우 빈약해 보입니다. 하지만 믿음직스럽지 못한 외형과는 다르게 매우 튼튼하고 착용자의 근접 전투력을 상당히 올려줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/OnSkin/Bikini_Armor/No_Both/Texture</texPath>
+	</graphicData>
+	<costList>
+		<DevilstrandCloth>25</DevilstrandCloth>
+		<Plasteel>50</Plasteel>
+	</costList>
+	<costStuffCount>75</costStuffCount>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>300</MaxHitPoints>
+		<WorkToMake>32000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+		<Insulation_Cold>20</Insulation_Cold>
+		<Insulation_Heat>10</Insulation_Heat>
+	</statBases>
+	<apparel>
+		<tags>
+			<!--Royal-->
+ 			 <li>RoyalCombatGear</li>
+			<!--Royal-->
+			<li>Kurin_Melee</li>
+		</tags>
+		<layers>
+			<li>Shell</li>
+		</layers>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+			<li>Arms</li>
+			<li>Shoulders</li>
+			<li>Neck</li>
+			<li>Feet</li>
+			<li>Hands</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/OnSkin/Bikini_Armor/No_Both/Texture</wornGraphicPath>
+	</apparel>
+	<equippedStatOffsets>
+		<MeleeHitChance>2.0</MeleeHitChance>
+		<MeleeDodgeChance>6.0</MeleeDodgeChance>
+		<MoveSpeed>0.3</MoveSpeed>
+	</equippedStatOffsets>
+</ThingDef>
 
 <!--end-->
 
@@ -946,8 +1262,8 @@
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Seductive_White_Dress/Texture</wornGraphicPath>
 	</apparel>
 	<equippedStatOffsets>
-		<SocialImpact>0.3</SocialImpact>
-		<NegotiationAbility>0.3</NegotiationAbility>
+		<SocialImpact>0.2</SocialImpact>
+		<NegotiationAbility>0.2</NegotiationAbility>
 	</equippedStatOffsets>
 </ThingDef>
 
@@ -986,8 +1302,8 @@
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Seductive_Black_Dress/Texture</wornGraphicPath>
 	</apparel>
 	<equippedStatOffsets>
-		<SocialImpact>0.3</SocialImpact>
-		<NegotiationAbility>0.3</NegotiationAbility>
+		<SocialImpact>0.2</SocialImpact>
+		<NegotiationAbility>0.2</NegotiationAbility>
 	</equippedStatOffsets>
 </ThingDef>
 </Defs>

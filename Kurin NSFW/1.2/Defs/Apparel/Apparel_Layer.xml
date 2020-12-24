@@ -14,9 +14,15 @@
 </ApparelLayerDef>
 
 <ApparelLayerDef>
+	<defName>Kurin_Legs</defName>
+	<label>legs layer</label>
+	<drawOrder>-1</drawOrder>
+</ApparelLayerDef>
+
+<ApparelLayerDef>
 	<defName>Kurin_Apparel_Middle</defName>
 	<label>kurin middle apparel</label>
-	<drawOrder>1</drawOrder>
+	<drawOrder>500</drawOrder>
 </ApparelLayerDef>
 
 <ApparelLayerDef>
@@ -28,7 +34,6 @@
 <ApparelLayerDef>
 	<defName>Kurin_Apparel_Shell</defName>
 	<label>kurin shell apparel</label>
-	<drawOrder>2</drawOrder>
+	<drawOrder>1000</drawOrder>
 </ApparelLayerDef>
-
 </Defs>
