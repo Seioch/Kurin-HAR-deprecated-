@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+	<identifier>Kurin HAR Edition Test</identifier>
+	<version>1.0.0</version>
+	<dependencies>
+		<li>erdelf.HumanoidAlienRaces</li>
+	</dependencies>
+	<incompatibleWith />
+	<loadAfter>
+		<li>erdelf.HumanoidAlienRaces</li>
+	</loadAfter>
+	<suggests>
+	</suggests>
+	<manifestUri></manifestUri>
+	<downloadUri></downloadUri>
+</Manifest>
