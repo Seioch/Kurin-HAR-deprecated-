@@ -440,6 +440,14 @@
                   </li>
                   <li>
                     <weight>10</weight>
+                    <only>RGBA(151,78,25,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(166,123,64,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
                     <only>RGBA(96,49,1,255)</only>
                   </li>
                   <li>
@@ -447,6 +455,26 @@
                     <only>RGBA(69,24,0,255)</only>
                   </li>
 				  <!-- Blue -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(81,123,132,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(30,193,171,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(75,0,130,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(46,131,144,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(90,51,220,255)</only>
+                  </li>
                   <li>
                     <weight>10</weight>
                     <only>RGBA(15,48,91,255)</only>
@@ -461,13 +489,53 @@
                   </li>
                   <li>
                     <weight>10</weight>
+                    <only>RGBA(51,89,220,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
                     <only>RGBA(82,140,158,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(229,248,242,255)</only>
                   </li>
                   <li>
                     <weight>10</weight>
                     <only>RGBA(127,180,190,255)</only>
                   </li>
 				  <!--Green-->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(164,200,185,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(240,255,240,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(86,206,60,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(195,240,26,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(127,255,212,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(56,144,88,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(65,144,56,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(47,199,31,255)</only>
+                  </li>
                   <li>
                     <weight>10</weight>
                     <only>RGBA(217,229,182,255)</only>
@@ -478,7 +546,15 @@
                   </li>
                   <li>
                     <weight>10</weight>
+                    <only>RGBA(195,240,26,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
                     <only>RGBA(181,210,158,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(56,144,117,255)</only>
                   </li>
                   <li>
                     <weight>10</weight>
@@ -487,6 +563,58 @@
                   <li>
                     <weight>10</weight>
                     <only>RGBA(141,184,137,255)</only>
+                  </li>
+				  
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(237,98,122,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(195,25,90,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(200,186,239,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(135,124,193,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(210,45,38,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(240,96,26,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(240,153,26,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(240,202,26,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(139,0,139,255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(255, 20, 147,255)</only>
+                  </li>
+				  
+				  
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(139,137,160,255)</only>
+                  </li>
+				  
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(240,255,255,255)</only>
                   </li>
                 </options>
               </second>
