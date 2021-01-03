@@ -573,6 +573,32 @@
 	<graphicData>
 		<texPath>Kurin/Apparel/OnSkin/Bikini_Armor/Texture</texPath>
 	</graphicData>
+	<colorGenerator Class="ColorGenerator_Options">
+  <options>
+    <li>
+      <weight>10</weight>
+      <only>RGBA(0.33,0.33,0.33,1)</only>
+    </li>
+    <li>
+      <weight>10</weight>
+      <only>RGBA(0.65,0.65,0.65,1)</only>
+    </li>
+    <li>
+      <weight>30</weight>
+      <only>RGBA(0.4,0.3,0.15,1)</only>
+    </li>
+    <li>
+      <weight>6</weight>
+      <min>RGBA(0.3,0.3,0.3,1)</min>
+      <max>RGBA(0.5,0.5,0.5,1)</max>
+    </li>
+    <li>
+      <weight>2</weight>
+      <min>RGBA(0.5,0.5,0.5,1)</min>
+      <max>RGBA(1,1,1,1)</max>
+    </li>
+  </options>
+</colorGenerator>
 	<costList>
 		<DevilstrandCloth>25</DevilstrandCloth>
 		<Plasteel>50</Plasteel>
@@ -748,7 +774,7 @@
 
 <ThingDef ParentName="Kurin_OnSkinBaseTear3">
 	<defName>Kurin_OnSkin_Traditional_Simple_Dress</defName>
-	<label>kurin traditionnal simple dress</label>
+	<label>kurin traditional simple dress</label>
 	<description>흰색의 순수한 치마와 분홍색의 셔츠가 인상적인 쿠린들의 전통의상입니다.</description>
 	<graphicData>
 		<texPath>Kurin/Apparel/OnSkin/Traditional_Simple_Dress/Texture</texPath>
@@ -790,7 +816,7 @@
 
 <ThingDef ParentName="Kurin_OnSkinBaseTear3">
 	<defName>Kurin_OnSkin_Traditional_Fancy_Dress</defName>
-	<label>kurin traditionnal fancy dress</label>
+	<label>kurin traditional fancy dress</label>
 	<description>푸른색의 화려한 치마와 포인트가 들어간 흰색의 셔츠가 인상적인 쿠린들의 전통의상입니다.</description>
 	<graphicData>
 		<texPath>Kurin/Apparel/OnSkin/Traditional_Fancy_Dress/Texture</texPath>
@@ -832,7 +858,7 @@
 
 <ThingDef ParentName="Kurin_OnSkinBaseTear3">
 	<defName>Kurin_OnSkin_Traditional_Luxury_Dress</defName>
-	<label>kurin traditionnal luxury dress</label>
+	<label>kurin traditional luxury dress</label>
 	<description>갈색 시스루 치마와 셔츠가 인상적인 쿠린들의 전통의상입니다.</description>
 	<graphicData>
 		<texPath>Kurin/Apparel/OnSkin/Traditional_Luxury_Dress/Texture</texPath>

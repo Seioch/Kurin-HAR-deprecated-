@@ -202,7 +202,7 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Kurin_Bullet_Sniper_Rifle</defaultProjectile>
 			<warmupTime>1.2</warmupTime>
-			<range>41.9</range>
+			<range>35.9</range>
 			<soundCast>Kurin_Shot_Tactical_Rifle</soundCast>
 			<soundCastTail>GunTail_Medium</soundCastTail>
 			<muzzleFlashScale>10</muzzleFlashScale>
@@ -234,9 +234,9 @@
 	<label>kurin sniper rifle bullet</label>
 	<projectile>
 		<damageDef>Bullet</damageDef>
-		<damageAmountBase>18</damageAmountBase>
+		<damageAmountBase>10</damageAmountBase>
 		<stoppingPower>1.2</stoppingPower>
-		<armorPenetrationBase>0.33</armorPenetrationBase>
+		<armorPenetrationBase>0.60</armorPenetrationBase>
 		<speed>140</speed>
 	</projectile>
 	<graphicData>
