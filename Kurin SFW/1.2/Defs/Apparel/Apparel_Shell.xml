@@ -151,7 +151,7 @@
 		<wornGraphicPath>Kurin/Apparel/Shell/Traditional_Coat/Texture</wornGraphicPath>
 		<tags>
 			<!--Royal-->
-          <li>Psychic</li>
+          <!-- <li>Psychic</li> -->
 			<!--Royal-->
 		</tags>
 	</apparel>

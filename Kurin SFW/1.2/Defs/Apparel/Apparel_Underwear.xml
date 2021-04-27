@@ -41,7 +41,7 @@
 <ThingDef ParentName="Kurin_UnderwearBase">
 	<defName>Kurin_Underwear</defName>
 	<label>kurin white bra</label>
-	<description>귀여운 흰색 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<description>Plain underwear, dyed white</description>
 	<graphicData>
 		<texPath>Kurin/Apparel/Underwear/White_Underwear/Texture</texPath>
 	</graphicData>
@@ -90,7 +90,7 @@
 <ThingDef ParentName="Kurin_UnderwearBase">
 	<defName>Kurin_Underwear_Black</defName>
 	<label>kurin black underwear</label>
-	<description>섹시한 검정색 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<description>Plain underwear, dyed black</description>
 	<graphicData>
 		<texPath>Kurin/Apparel/Underwear/Black_Underwear/Texture</texPath>
 	</graphicData>
@@ -107,7 +107,7 @@
 <ThingDef ParentName="Kurin_UnderwearBase">
 	<defName>Kurin_Underwear_Red</defName>
 	<label>kurin red underwear</label>
-	<description>정열적인 붉은색 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<description>Plain underwear, dyed red</description>
 	<graphicData>
 		<texPath>Kurin/Apparel/Underwear/Red_Underwear/Texture</texPath>
 	</graphicData>

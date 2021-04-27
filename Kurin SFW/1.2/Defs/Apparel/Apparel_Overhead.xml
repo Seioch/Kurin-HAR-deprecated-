@@ -291,7 +291,7 @@
 		<wornGraphicPath>Kurin/Apparel/Overhead/Military_Helmet_A/Texture</wornGraphicPath>
 		<tags>
 			<li>Kurin_Military</li>
- 			 <li>RoyalCombatGear</li>
+ 			<li>RoyalCombatGear</li>
 		</tags>
 	</apparel>
 </ThingDef>
@@ -325,13 +325,13 @@
 		<bodyPartGroups>
 			<li>UpperHead</li>
 		</bodyPartGroups>
+		<tags>
+			<li>Royal</li>
+			<li>RoyalTier5</li>
+			<li>Kurin_Trader</li>
+		</tags>
 		<wornGraphicPath>Kurin/Apparel/Overhead/Traditional_Hair_Pin/Texture</wornGraphicPath>
 		<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
-		<tags>
-			<li>Kurin_Trader</li>
-			<li>Royal</li>
-			<li>RoyalTier2</li>
-		</tags>
 	</apparel>
 </ThingDef>
 
@@ -343,6 +343,11 @@
 		<bodyPartGroups>
 			<li>UpperHead</li>
 		</bodyPartGroups>
+		<tags>
+			<li>Royal</li>
+			<li>RoyalTier5</li>
+			<li>Kurin_Trader</li>
+		</tags>
 	<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
 	<wornGraphicPath>Kurin/Apparel/Overhead/Cute_Hair_Pin/Texture</wornGraphicPath>
 	</apparel>
@@ -365,7 +370,7 @@
 		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
 	</statBases>
 	<equippedStatOffsets>
-		<SocialImpact>0.1</SocialImpact>
+		<SocialImpact>0.5</SocialImpact>
 	</equippedStatOffsets>
 </ThingDef>
 

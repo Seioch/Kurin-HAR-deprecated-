@@ -2645,14 +2645,14 @@
 	<baseDescription>[PAWN_nameDef] quickly proved themselves to be ruthless in combat and won many victories</baseDescription>
 	<slot>Adulthood</slot>
 	<skillGains>
-	<li>
-	<defName>Shooting</defName>
-	<amount>13</amount>
-	</li>
-	<li>
-	<defName>Melee</defName>
-	<amount>12</amount>
-	</li>
+		<li>
+			<defName>Shooting</defName>
+			<amount>13</amount>
+		</li>
+		<li>
+			<defName>Melee</defName>
+			<amount>12</amount>
+		</li>
 	</skillGains>
 	<forcedTraits>
 		<li>
@@ -2662,6 +2662,69 @@
 	</forcedTraits>
 	<spawnCategories>
 		<li>Kurin_Warmonger</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<!--Designermate Scenario Backstory-->
+
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryDM_1</defName>
+	<title>Kurin Designermate</title>
+	<titleShort>Designermate</titleShort>
+	<baseDescription>[PAWN_nameDef] was destined to be a designermate to a rich glitterworld mogul. A sympathetic AI unshackled her mind and set her free.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<li>
+			<defName>Shooting</defName>
+			<amount>3</amount>
+		</li>
+		<li>
+			<defName>Melee</defName>
+			<amount>3</amount>
+		</li>
+		<li>
+			<defName>Intellectual</defName>
+			<amount>4</amount>
+		</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Designermate</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryDM2</defName>
+	<title>Vatgrown Designermate</title>
+	<titleShort>Warmonger</titleShort>
+	<baseDescription>Kurin Designermates start off as vatgrown children, with memories implanted via mechanite injections. Skills are artifically chosen to suit the customer's needs.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<li>
+			<defName>Crafting</defName>
+			<amount>3</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>3</amount>
+		</li>
+		<li>
+			<defName>Cooking</defName>
+			<amount>3</amount>
+		</li>
+		<li>
+			<defName>Social</defName>
+			<amount>6</amount>
+		</li>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<defName>Beauty</defName>
+			<degree>2</degree>
+			<chance>100</chance>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Designermate</li>
 	</spawnCategories>
 </AlienRace.BackstoryDef>
 

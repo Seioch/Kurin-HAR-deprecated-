@@ -12,11 +12,11 @@
 		<parent>Kurin_Apparel</parent>
 	</ThingCategoryDef>
 
-	<ThingCategoryDef>
+	<!-- <ThingCategoryDef>
 		<defName>Kurin_Apparel_Stocking</defName>
 		<label>kurin stocking apparel</label>
 		<parent>Kurin_Apparel</parent>
-	</ThingCategoryDef>
+	</ThingCategoryDef> -->
 
 	<ThingCategoryDef>
 		<defName>Kurin_Apparel_OnSkin</defName>

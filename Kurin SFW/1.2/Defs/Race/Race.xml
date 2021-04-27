@@ -905,7 +905,6 @@
 		<raceRestriction>
             <apparelList>
 				<li>Kurin_OnSkin_Shirt</li>
-				<!-- <li>Kurin_OnSkin_Shirt_Short</li> -->
 				<li>Kurin_OnSkin_T_Shirt</li>
 				<li>Kurin_OnSkin_Hot_Pants</li>
 				<li>Kurin_OnSkin_Hot_Top</li>
@@ -929,13 +928,6 @@
 				<li>Kurin_OnSkin_Cute_Dress</li>
 				<li>Kurin_OnSkin_Seductive_White_Dress</li>
 				<li>Kurin_OnSkin_Seductive_Black_Dress</li>
-				<li>Kurin_Stockings</li>
-				<li>Kurin_Stockings_White</li>
-				<li>Kurin_Stockings_Brown</li>
-				<li>Kurin_Stockings_Striped</li>
-                <li>Kurin_Stockings_Striped_White</li>
-				<li>Kurin_Stockings_Garterbelt</li>
-				<li>Kurin_Stockings_Pantyhose</li>
 				<li>Kurin_Underwear</li> 
 				<li>Kurin_Underwear_Stuffed</li> 
 				<li>Kurin_Underwear_Black</li> 

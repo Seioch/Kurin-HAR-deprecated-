@@ -29,7 +29,7 @@
 			<li>Kurin_Grunt</li>
 			<!--Royal-->
 			<li>Royal</li>
-			<li>RoyalTier1</li>
+			<!-- <li>RoyalTier1</li> -->
 			<!--Royal-->
 		</tags>
 	</apparel>
@@ -491,8 +491,11 @@
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Armored_Gothic_Dress/Texture</wornGraphicPath>
 		<tags>
+			<li>Kurin_Colonist</li>
+			<li>Kurin_Grunt</li>
 			<!--Royal-->
- 			 <li>RoyalCombatGear</li>
+			<li>Royal</li>
+			<li>RoyalTier5</li>
 			<!--Royal-->
 		</tags>
 	</apparel>
@@ -807,7 +810,7 @@
 		</bodyPartGroups>
 		<tags>
 			<li>Royal</li>
-			<li>RoyalTier7</li>
+			<li>RoyalTier3</li>
 			<li>Kurin_Trader</li>
 		</tags>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Traditional_Simple_Dress/Texture</wornGraphicPath>
@@ -850,7 +853,7 @@
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Traditional_Fancy_Dress/Texture</wornGraphicPath>
 		<tags>
 			<li>Royal</li>
-			<li>RoyalTier7</li>
+			<li>RoyalTier5</li>
 			<li>Kurin_Trader</li>
 		</tags>
 	</apparel>
@@ -892,7 +895,7 @@
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Traditional_Luxury_Dress/Texture</wornGraphicPath>
 		<tags>
 			<li>Royal</li>
-			<li>RoyalTier7</li>
+			<li>RoyalTier5</li>
 			<li>Kurin_Trader</li>
 		</tags>
 	</apparel>
@@ -962,7 +965,7 @@
 	<apparel>
 		<tags>
 			<li>Royal</li>
-			<li>RoyalTier7</li>
+			<li>RoyalTier5</li>
 		</tags>
 		<bodyPartGroups>
 			<li>Torso</li>
@@ -1002,7 +1005,7 @@
 	<apparel>
 		<tags>
 			<li>Royal</li>
-			<li>RoyalTier7</li>
+			<li>RoyalTier5</li>
 		</tags>
 		<bodyPartGroups>
 			<li>Torso</li>

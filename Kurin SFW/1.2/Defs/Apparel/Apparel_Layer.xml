@@ -7,6 +7,7 @@
 	<drawOrder>-4</drawOrder>
 </ApparelLayerDef>
 
+<!-- Keeping this layerdef for backwards compatability, although the sotcking item itself is gone.  -->
 <ApparelLayerDef>
 	<defName>Kurin_Stocking</defName>
 	<label>stocking</label>
